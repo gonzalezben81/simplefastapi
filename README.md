@@ -14,7 +14,7 @@ docker build -t simplefastapi .
 docker run --rm -p 80:80 simplefastapi
 ```
 
-#### Kill the Docker contain that is running
+#### Kill the Docker container that is running
 
 **Note: This will call all Docker containers that are currently running.**
 
