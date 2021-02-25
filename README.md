@@ -11,12 +11,12 @@ docker build -t simplefastapi .
 #### Run the Docker Image
 
 ```
-docker run --rm -p 80:80 simplefastapi
+docker run --rm -p 8080:8080 simplefastapi
 ```
 
 #### Kill the Docker container that is running
 
-**Note: This will call all Docker containers that are currently running.**
+**Note: This will kill all Docker containers that are currently running.**
 
 ```
 docker kill $(docker ps -q)
