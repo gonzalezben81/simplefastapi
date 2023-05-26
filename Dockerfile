@@ -1,6 +1,7 @@
 ###Import Python3 from Docker
 FROM python:3.7
 
+
 ###Install fastapi and uvicorn
 RUN pip install fastapi uvicorn
 
